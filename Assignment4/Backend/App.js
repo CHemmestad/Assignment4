@@ -23,6 +23,8 @@ const port = "8081";
 const host = "localhost";
 
 const { MongoClient } = require("mongodb");
+const multer = require("multer");
+const path = require("path");
 
 // const url = "mongodb://127.0.0.1:27017";
 // const dbName = "secoms3190";
